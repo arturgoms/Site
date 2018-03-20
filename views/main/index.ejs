@@ -1,0 +1,207 @@
+<style>
+html,body {
+  background: #EFF3F4;
+  font-family: 'Open Sans', serif;
+}
+.hero-body .container {
+  max-width: 700px;
+}
+.hero-body .title {
+  color: hsl(192,17%,99%) !important;
+}
+.hero-body .subtitle {
+  color: hsl(192,17%,99%) !important;
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+.features {
+  padding: 5rem 0;
+}
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+adding-bottom: 2rem;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+.intro {
+  padding: 5rem 0;
+  text-align: center;
+}
+.sandbox {
+  padding: 5rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+</style>
+<%- contentFor('body') %>
+  <section class="hero is-dark is-medium is-bold">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="/" class="navbar-item is-active">
+                Home
+              </a>
+              <a href="#features" class="navbar-item">
+                Demos
+              </a>
+              <a  href="#contato" class="navbar-item">
+                Contato
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">
+          .Hover
+        </h1>
+        <h2 class="subtitle">
+          Tirando suas ideias do papel.
+        </h2>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="box cta">
+    <p class="has-text-centered">
+      <span class="tag is-primary">Novidade</span>  Agora temos e-mail para contato, contato@dothover.com
+    </p>
+  </div>
+
+  <section  class="container">
+    <div id="features" class="columns features">
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i style="padding-top: 2rem;" class="fas fa-edit fa-8x"></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Personalização.</h4>
+              <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i style="padding-top: 2rem;" class="fas fa-lock fa-8x"></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Segurança.</h4>
+              <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.</p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i style="padding-top: 2rem;" class="fas fa-space-shuttle fa-8x"></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4> Velocidade.  </h4>
+              <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
+              <p><a href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro column is-8 is-offset-2">
+      <h2 class="title">Entre em contato com a gente!</h2><br>
+      <p class="subtitle">Você pode perguntar sobre o clima, pedir algum conselho ou também fazer um orçamento sobre algum site ou aplicativo que deseja desenvolver, teremos o maior prazer em te ajudar. </p>
+    </div>
+    <div id="contato" class="card">
+      <div class="card-content">
+        <div class="field">
+  <label class="label">Nome</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="João da Silva">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Email</label>
+  <div class="control">
+    <input class="input" type="email" placeholder="joao@host.com" value="">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Assunto</label>
+  <div class="control">
+    <div class="select">
+      <select>
+        <option>Cotação</option>
+        <option>Sites</option>
+        <option>Aplicativos</option>
+        <option>Outros</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Menssagem</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Escreva seu email."></textarea>
+  </div>
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <button class="button is-link">Enviar</button>
+  </div>
+  <div class="control">
+    <button class="button is-text">Cancelar</button>
+  </div>
+</div>
+      </div>
+      
+    </div>
+  </section>
+<div class="hero-foot">
+      <div class="container">
+        <div class="tabs is-centered">
+          <ul>
+            <li><a>Copyright .Hover 2018</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  <script async type="text/javascript" src="../js/bulma.js"></script>

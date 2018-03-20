@@ -1,0 +1,38 @@
+{
+  "name": "dashthing",
+  "version": "0.0.1",
+  "description": "The thing, my platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturgoms/DashThing.git"
+  },
+  "author": "Artur Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturgoms/DashThing/issues"
+  },
+  "homepage": "https://github.com/arturgoms/DashThing#readme",
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "express-flash": "0.0.2",
+    "express-load": "^1.1.16",
+    "express-session": "latest",
+    "marked": "^0.3.17",
+    "meta-marked": "^0.4.2",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.7",
+    "morgan": "~1.0.0",
+    "nodemailer": "^4.6.0",
+    "serve-favicon": "^2.4.5",
+    "static-favicon": "~1.0.0"
+  }
+}
