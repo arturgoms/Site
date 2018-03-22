@@ -1,8 +1,8 @@
 # .Hover
 
-Intruções
+Instruções
 
-* git clone http://github.com/dotHover/Site
+* git clone https://github.com/dotHover/Site.git
 * cd Site
 * npm install
 * node app.js
